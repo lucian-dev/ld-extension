@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "LD-Extension",
+  "version": "1.0",
+  "description": "Lorem asdpoi asd sad sassa!",
+  "background": {
+    "service_worker": "dist/js/background.js"
+  },
+  "icons": {
+    "16": "assets/icons/Icon16.png",
+    "48": "assets/icons/Icon48.png",
+    "128": "assets/icons/Icon128.png"
+  },
+  "permissions": ["storage", "notifications"],
+  "action": {
+    "default_title": "LD-Extension",
+    "default_popup": "src/popup/popup.html",
+    "default_icon": {
+      "16": "assets/icons/Icon16.png",
+      "48": "assets/icons/Icon48.png",
+      "128": "assets/icons/Icon128.png"
+    }
+  }
+}

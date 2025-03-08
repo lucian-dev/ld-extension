@@ -1,0 +1,7 @@
+.img-abs {
+  @apply absolute left-[0px] top-[0px] h-full object-cover pointer-events-none select-none;
+}
+
+a.btn {
+  @apply inline-block text-[1.4rem] leading-none py-2 px-3 text-secondary uppercase rounded-[5px] border border-primary bg-primary cursor-pointer transition-all hover:bg-accent hover:text-secondary;
+}

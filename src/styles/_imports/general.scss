@@ -1,0 +1,39 @@
+// Foundation
+// =≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠
+html {
+  font-size: 62.5%;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+}
+
+@view-transition {
+  navigation: auto;
+}
+
+body {
+  @apply font-poppins text-bodySize leading-normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-poppins leading-[1.2];
+}
+
+p,
+li,
+figcaption {
+  text-wrap: pretty;
+}
+
+.ya-container {
+  position: relative;
+  width: 100%;
+  max-width: 1920px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
